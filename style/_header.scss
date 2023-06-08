@@ -58,6 +58,30 @@ header {
   gap: 5px;
   margin-top: 50px;
 }
+.scroll {
+  visibility: hidden;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.add {
+  cursor: pointer;
+  position: fixed;
+  top: 90vh;
+  left: 1vw;
+  background-color: black;
+  opacity: 0.7;
+  visibility: visible;
+  transition: all ease 0.3s;
+  opacity: 0.7;
+  &:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+}
+
 @media only screen and (max-width: 375px) {
   .container {
     width: 100%;

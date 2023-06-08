@@ -69,6 +69,30 @@ header {
   margin-top: 50px;
 }
 
+.scroll {
+  visibility: hidden;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.add {
+  cursor: pointer;
+  position: fixed;
+  top: 90vh;
+  left: 1vw;
+  background-color: black;
+  opacity: 0.7;
+  visibility: visible;
+  transition: all ease 0.3s;
+  opacity: 0.7;
+}
+.add:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
 @media only screen and (max-width: 375px) {
   .container {
     width: 100%;
@@ -264,6 +288,7 @@ a {
   height: 360px;
   position: sticky;
   top: 0;
+  margin-top: 10px;
 }
 
 .card__title {
@@ -321,6 +346,24 @@ a {
   height: 570px;
 }
 
+.hotel__bgimg:hover .hotel__aside {
+  transform: translateY(0);
+  visibility: visible;
+  opacity: 1;
+}
+
+.hotel__bgimg2:hover .hotel__aside {
+  transform: translateY(0);
+  visibility: visible;
+  opacity: 1;
+}
+
+.hotel__bgimg3:hover .hotel__aside {
+  transform: translateY(0);
+  visibility: visible;
+  opacity: 1;
+}
+
 .hotel__bgimg2 {
   background-image: url("../img/hotel__img2.png");
   width: 920px;
@@ -331,6 +374,7 @@ a {
   background-image: url("../img/hotel__img3.png");
   width: 920px;
   height: 570px;
+  background-size: contain;
 }
 
 .hotel__aside {
@@ -339,7 +383,11 @@ a {
   -webkit-backdrop-filter: blur(7px);
           backdrop-filter: blur(7px);
   position: relative;
+  transform: translateY(150px);
   top: 395px;
+  visibility: hidden;
+  transition: all ease 0.4s;
+  opacity: 0;
 }
 
 .hotel__aside h2 {
@@ -473,6 +521,92 @@ a {
   margin-top: 180px;
 }
 
-.img {
-  margin-top: 300px;
+.payment__img {
+  width: 860px;
+  height: 500px;
+}
+
+.payment__wrapper {
+  width: 860px;
+  height: 500px;
+  position: relative;
+}
+
+.payment__wrapper-second {
+  margin-top: 250px;
+  margin-left: 440px;
+  position: relative;
+}
+
+.payment__wrapper:hover .payment__wrap {
+  visibility: visible;
+  transform: scale(1);
+  opacity: 1;
+}
+
+.payment__wrapper-second:hover .payment__wrap-second {
+  visibility: visible;
+  transform: scale(1);
+  opacity: 1;
+}
+
+.payment__wrap {
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.07);
+  -webkit-backdrop-filter: blur(7.5px);
+          backdrop-filter: blur(7.5px);
+  position: absolute;
+  top: 215px;
+  left: 590px;
+  width: 610px;
+  padding: 40px;
+  left: 590px;
+  visibility: hidden;
+  transform: scale(0);
+  transition: all ease 0.5s;
+  opacity: 0;
+}
+
+.payment__wrap-second {
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.07);
+  -webkit-backdrop-filter: blur(7.5px);
+          backdrop-filter: blur(7.5px);
+  position: absolute;
+  top: 171px;
+  left: -356px;
+  width: 610px;
+  padding: 40px;
+  visibility: hidden;
+  transform: scale(0);
+  transition: all ease 0.5s;
+  opacity: 0;
+}
+
+.payment__title {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #071c35;
+}
+
+.payment__text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #071c35;
+  margin-top: 41px;
+}
+
+.payment__btn {
+  margin-top: 26px;
+  border: 1px solid rgba(7, 28, 53, 0.15);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #071c35;
+  padding: 11px 30px;
+  background-color: transparent;
 }/*# sourceMappingURL=main.css.map */

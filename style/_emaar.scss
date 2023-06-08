@@ -139,6 +139,7 @@
   height: 360px;
   position: sticky;
   top: 0;
+  margin-top: 10px;
 }
 .card__title {
   font-weight: 500;
@@ -189,6 +190,21 @@
   width: 920px;
   height: 570px;
 }
+.hotel__bgimg:hover .hotel__aside {
+  transform: translateY(0);
+  visibility: visible;
+  opacity: 1;
+}
+.hotel__bgimg2:hover .hotel__aside {
+  transform: translateY(0);
+  visibility: visible;
+  opacity: 1;
+}
+.hotel__bgimg3:hover .hotel__aside {
+  transform: translateY(0);
+  visibility: visible;
+  opacity: 1;
+}
 .hotel__bgimg2 {
   background-image: url("../img/hotel__img2.png");
   width: 920px;
@@ -198,13 +214,18 @@
   background-image: url("../img/hotel__img3.png");
   width: 920px;
   height: 570px;
+  background-size: contain;
 }
 .hotel__aside {
   padding: 28px 47px;
   background: rgba(255, 255, 255, 0.625);
   backdrop-filter: blur(7px);
   position: relative;
+  transform: translateY(150px);
   top: 395px;
+  visibility: hidden;
+  transition: all ease 0.4s;
+  opacity: 0;
 }
 .hotel__aside h2 {
   font-weight: 400;
