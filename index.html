@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style/main.css" />
     <link rel="stylesheet" href="./style/main.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>EMAAR</title>
   </head>
   <body>
@@ -36,6 +37,117 @@
         </div>
       </div>
     </header>
+    <main>
+      <div class="container">
+        <div class="emaar__block">
+          <div class="emaar__wrap">
+            <img src="./img/emaar__img.png" alt="" />
+            <img class="emaar__img" src="./img/emaar__img2.png" alt="" />
+          </div>
+          <div class="emaar__content">
+            <h2 class="emaar__title">
+              AVAILABLE HOMES FOR SALE BY EMAAR PROPERTIES
+            </h2>
+            <p class="emaar__text">
+              Emaar Properties is one of the world’s most valuable and admired
+              real estate development companies. With proven competencies in
+              properties, shopping malls & retail and hospitality &
+              leisure.Emaar Properties is one of the world’s most valuable and
+              admired real estate development companies
+            </p>
+            <div class="emaar__wrapper">
+              <div>
+                <h2 class="emaar__list">$10.9 bln</h2>
+                <p class="emaar__link">Market cap</p>
+              </div>
+              <div>
+                <h2 class="emaar__list">$7.7 bln</h2>
+                <p class="emaar__link">Revenue</p>
+              </div>
+              <div>
+                <h2 class="emaar__list">$1 bln</h2>
+                <p class="emaar__link">Net profit</p>
+              </div>
+            </div>
+            <button class="emaar__btn">see more</button>
+          </div>
+        </div>
+        <h1 class="project__title">top projects</h1>
+        <div class="project__block">
+          <div
+            data-aos="zoom-in-down"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            class="project__box"
+          >
+            <img src="./img/product__img.png" alt="" />
+            <div class="emaar__aside">
+              <h3 class="emaar__subtitle">creek rise</h3>
+              <p class="emaar__desc">FROM AED 2,288,888</p>
+            </div>
+          </div>
+          <div
+            data-aos="zoom-in-down"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            class="project__box"
+          >
+            <img src="./img/product__img2.png" alt="" />
+            <div class="emaar__aside">
+              <h3 class="emaar__subtitle">EXPO GOLF VILLAS 6</h3>
+              <p class="emaar__desc">FROM AED 2,288,888</p>
+            </div>
+          </div>
+          <div
+            data-aos="zoom-in-down"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            class="project__box"
+          >
+            <img src="./img/product__img3.png" alt="" />
+            <div class="emaar__aside">
+              <h3 class="emaar__subtitle">HILLS PARK</h3>
+              <p class="emaar__desc">FROM AED 2,288,888</p>
+            </div>
+          </div>
+        </div>
+        <div class="map">
+          <iframe
+            src="https://yandex.ru/map-widget/v1/?um=constructor%3A497831b1a6e87a411acfcd23ff2e3639a0eb98dc278e83c60db568d1254a65e2&amp;source=constructor"
+            width="1300"
+            height="620"
+            frameborder="0"
+          ></iframe>
+        </div>
+        <div class="hotel__block">
+          <div class="hotel__card">
+            <h2 class="card__title">community</h2>
+            <form>
+              <div class="card__label">
+                <input type="radio" value=" #071C35" name="q1" id="a1" />
+                <label for="a1">dubai creek harbour</label>
+              </div>
+              <div class="card__label">
+                <input type="radio" value=" #071C35" name="q1" id="a2" />
+                <label for="a2">dubai hills estate</label>
+              </div>
+              <div class="card__label">
+                <input type="radio" value=" #071C35" name="q1" id="a3" />
+                <label for="a3">emaar south</label>
+              </div>
+            </form>
+            <h2 class="card__subtitle">Projects</h2>
+            <a class="card__ancer" href="#">CREEK RISE</a>
+            <a class="card__ancer" href="#">THE COVE</a>
+            <a class="card__ancer" href="#">CREEK GATE</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./main.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

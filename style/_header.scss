@@ -11,6 +11,10 @@ header {
   background: rgba(7, 28, 53, 0.5);
   backdrop-filter: blur(7.5px);
   margin-top: 40vh;
+  cursor: pointer;
+  &:hover {
+    backdrop-filter: blur(0);
+  }
 }
 .header__hr {
   width: 100px;
@@ -54,12 +58,9 @@ header {
   gap: 5px;
   margin-top: 50px;
 }
-@media screen and (max-width: 576px) {
+@media only screen and (max-width: 375px) {
   .container {
     width: 100%;
-    max-width: 576px;
-  }
-  .header__block {
-    
+    max-width: 375px;
   }
 }
