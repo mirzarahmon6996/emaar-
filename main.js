@@ -1,5 +1,13 @@
 let anchors = document.querySelectorAll('a[href^="#"]');
 let button = document.querySelector(".scroll");
+let header = document.querySelector(".header__block");
+let modal = document.querySelector(".modal__block");
+
+header.addEventListener("click", (ev) => {
+  modal.classList.add("modal__add");
+  body.style.filter = "blur(10px)";
+});
+
 for (let anchor of anchors) {
   anchor.addEventListener("click", function (e) {
     e.preventDefault();
