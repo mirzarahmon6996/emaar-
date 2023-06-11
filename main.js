@@ -2,12 +2,15 @@ let anchors = document.querySelectorAll('a[href^="#"]');
 let button = document.querySelector(".scroll");
 let header = document.querySelector(".header__block");
 let modal = document.querySelector(".modal__block");
-
+let btn = document.querySelector(".modal__close");
+let body = document.querySelector("body");
 header.addEventListener("click", (ev) => {
   modal.classList.add("modal__add");
-  body.style.filter = "blur(10px)";
 });
 
+btn.addEventListener("click", (ev) => {
+  modal.classList.remove("modal__add");
+});
 for (let anchor of anchors) {
   anchor.addEventListener("click", function (e) {
     e.preventDefault();

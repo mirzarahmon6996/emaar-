@@ -79,3 +79,133 @@
   padding: 11px 30px;
   background-color: transparent;
 }
+.footertop__block {
+  margin-top: 114px;
+  margin-left: 440px;
+  h2 {
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #071c35;
+  }
+  .footertop__box {
+    background-color: #d9d9d9;
+    width: 868px;
+    height: 18px;
+  }
+}
+.footertop__wrap {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  span {
+    background: #85df99;
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 50%;
+  }
+  .footertop__parag {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+    left: -28px;
+    top: 7px;
+    color: #071c35;
+  }
+  .footertop__text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+    width: 434px;
+  }
+}
+.footertop__form {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 45px;
+  input {
+    width: 200px;
+    border: none;
+    padding: 9px 12px;
+    border-bottom: 1px solid rgba(7, 28, 53, 0.1);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #071c35;
+    outline: none;
+    margin-right: 10px;
+  }
+  button {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    padding: 11px 44px;
+    color: #071c35;
+    border: none;
+    background-color: transparent;
+    border: 1px solid rgba(7, 28, 53, 0.15);
+    &:hover {
+      background-color: rgba(23, 49, 81, 0.091);
+    }
+  }
+}
+footer {
+  background: #071c35;
+  margin-top: 50px;
+  .footer__block {
+    height: 237px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    .footer__img {
+      position: absolute;
+      top: -307px;
+    }
+    .footer__content {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      h3 {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+    }
+    .footer__aside {
+      margin-top: 30px;
+      a {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #ffffff;
+      }
+      span {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #ffffff;
+        margin-left: 10px;
+        margin-right: 50px;
+      }
+    }
+  }
+  .footer__wrapper {
+    margin-left: 450px;
+    div {
+      display: flex;
+      align-items: center;
+    }
+  }
+  .footer__logo {
+    transform: rotate(270deg);
+    margin-left: 200px;
+  }
+}
