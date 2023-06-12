@@ -204,7 +204,13 @@
     color: #071c35;
     margin-bottom: 30px;
   }
-  .carosel__galery-content{
+  .carosel__galery-content {
     width: 1132px;
+  }
+}
+.carousel__wrapper {
+  width: 1132px;
+  .carousel__content {
+    width: 363px;
   }
 }
