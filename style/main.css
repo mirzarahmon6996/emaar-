@@ -1125,6 +1125,7 @@ footer .footer__logo {
 }
 .carousel__wrapper .carousel__content {
   width: 363px;
+  height: 200px;
 }
 
 @media only screen and (max-width: 576px) {
