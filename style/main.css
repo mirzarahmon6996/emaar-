@@ -1,4 +1,4 @@
-header {
+.header__emaar {
   background-image: url("../Emaarbagimg.png");
   padding: 70px;
   background-repeat: no-repeat;
@@ -18,6 +18,10 @@ header {
 .header__block:hover {
   -webkit-backdrop-filter: blur(0);
           backdrop-filter: blur(0);
+}
+
+.blur {
+  filter: blur(5px);
 }
 
 .header__hr {
@@ -957,4 +961,188 @@ footer .footer__wrapper div {
 footer .footer__logo {
   transform: rotate(270deg);
   margin-left: 200px;
+}
+
+.popheader__block {
+  display: flex;
+  padding: 35px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popheader__title {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #071c35;
+}
+
+.popheader__ancer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #071c35;
+}
+.popheader__ancer:hover {
+  color: #071c35;
+}
+.popheader__ancer img {
+  margin-left: 10px;
+  transition: all ease 0.4s;
+}
+.popheader__ancer img:hover {
+  transform: scale(1.1);
+}
+
+.popheader__bgimg {
+  background-image: url("../img/pop__bgimg.png");
+  width: 1440px;
+  height: 500px;
+}
+
+.popheader__wrap {
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.07);
+  -webkit-backdrop-filter: blur(7.5px);
+          backdrop-filter: blur(7.5px);
+  padding: 50px;
+  width: 306px;
+  position: relative;
+  top: 100px;
+  left: 140px;
+}
+
+.popheader__wrap h2 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #071c35;
+  margin-bottom: 50px;
+}
+.popheader__wrap h4 {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: rgba(7, 28, 53, 0.3960784314);
+}
+
+.popheader__btn {
+  padding: 10px 53px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #071c35;
+  border: none;
+}
+
+.popheader__subtitle {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 140%;
+  width: 860px;
+  margin-top: 60px;
+  margin-left: 510px;
+  color: #777777;
+}
+
+.burj__block {
+  margin-top: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.burj__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  left: 140px;
+}
+
+.burj__title {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 18px;
+  color: #777777;
+}
+
+.burj__subtitle {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #071c35;
+}
+
+.burj__wrap-second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  left: -50px;
+}
+
+.burj__wrap-third {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  left: -250px;
+}
+
+.burj__wrap-four {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  left: 90px;
+}
+
+.burj__wrap-five {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  left: -210px;
+}
+
+.burj__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 26px;
+}
+
+.burj__btn {
+  background: #071c35;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  padding: 12px 40px;
+  border: none;
+  position: relative;
+  left: -50px;
+  top: -40px;
+  color: #ffffff;
+}
+.burj__btn:hover {
+  background-color: rgba(7, 28, 53, 0.6156862745);
 }/*# sourceMappingURL=main.css.map */

@@ -1,4 +1,4 @@
-header {
+.header__emaar {
   background-image: url("../Emaarbagimg.png");
   padding: 70px;
   background-repeat: no-repeat;
@@ -15,6 +15,9 @@ header {
   &:hover {
     backdrop-filter: blur(0);
   }
+}
+.blur {
+  filter: blur(5px);
 }
 .header__hr {
   width: 100px;

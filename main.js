@@ -4,12 +4,16 @@ let header = document.querySelector(".header__block");
 let modal = document.querySelector(".modal__block");
 let btn = document.querySelector(".modal__close");
 let body = document.querySelector("body");
+let main = document.querySelector("main");
 header.addEventListener("click", (ev) => {
   modal.classList.add("modal__add");
+  main.classList.add("blur");
+  document.querySelector(".header-blur").classList.add("blur");
 });
-
 btn.addEventListener("click", (ev) => {
   modal.classList.remove("modal__add");
+  document.querySelector(".header-blur").classList.remove("blur");
+  main.classList.remove("blur");
 });
 for (let anchor of anchors) {
   anchor.addEventListener("click", function (e) {
