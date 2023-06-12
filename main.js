@@ -3,7 +3,6 @@ let button = document.querySelector(".scroll");
 let header = document.querySelector(".header__block");
 let modal = document.querySelector(".modal__block");
 let btn = document.querySelector(".modal__close");
-let body = document.querySelector("body");
 let main = document.querySelector("main");
 header.addEventListener("click", (ev) => {
   modal.classList.add("modal__add");
