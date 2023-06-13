@@ -1735,8 +1735,8 @@ footer .footer__logo {
     width: 250px;
     height: 200px;
   }
-  .hotel__aside {
-    display: none;
+  .hotel__aside p {
+    font-size: 14px;
   }
   .hotel__inner {
     width: 250px;
