@@ -423,7 +423,7 @@
       margin-bottom: 20px;
     }
   }
-  .popheader__subtitle{
+  .popheader__subtitle {
     position: relative;
   }
 }
@@ -457,7 +457,11 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
+  .container {
+    width: 100%;
+    max-width: 420px;
+  }
   .popheader__block {
     padding: 10px 0;
     margin-bottom: 10px;
@@ -467,7 +471,7 @@
   }
   .popheader__bgimg {
     width: 100%;
-    max-width: 350px;
+    max-width: 400px;
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: -20px;
