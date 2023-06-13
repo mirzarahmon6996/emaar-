@@ -78,7 +78,7 @@
   line-height: 140%;
   width: 860px;
   margin-top: 60px;
-  margin-left: 510px;
+  margin-left: 30vw;
   color: #777777;
 }
 .burj__block {
@@ -144,9 +144,6 @@
   flex-direction: column;
   position: relative;
   left: -13vw;
-}
-.pop__img {
-  width: ;
 }
 .burj__wrapper {
   display: flex;
@@ -394,12 +391,113 @@
 }
 @media (max-width: 1200px) {
   .popheader__bgimg {
-    width: 1200px;
-    background-image: url("../img/pop__bgimg.png");
-    object-fit: cover;
-  }
-  .popheader__wrap {
     width: 100%;
     max-width: 1200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .popheader__subtitle {
+    width: 700px;
+    margin-left: 500px;
+    margin-top: -60px;
+  }
+}
+@media (max-width: 976px) {
+  .popheader__bgimg {
+    width: 976px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .popheader__subtitle {
+    width: 700px;
+    margin-left: 400px;
+    margin-top: -20vh;
+    width: 100%;
+    max-width: 500px;
+  }
+  .popheader__wrap {
+    padding: 20px;
+    position: relative;
+    left: 70px;
+    h2 {
+      margin-bottom: 20px;
+    }
+  }
+  .popheader__subtitle{
+    position: relative;
+  }
+}
+
+@media (max-width: 576px) {
+  .popheader__bgimg {
+    width: 576px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .popheader__wrap {
+    width: 250px;
+    position: relative;
+    left: 20px;
+    h4 {
+      font-size: 16px;
+    }
+    h2 {
+      font-size: 24px;
+    }
+  }
+  .popheader__subtitle {
+    width: 700px;
+    margin-left: 500px;
+    margin-top: -30vh;
+    width: 100%;
+    position: relative;
+    top: -150px;
+    left: -220px;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  .popheader__block {
+    padding: 10px 0;
+    margin-bottom: 10px;
+  }
+  .popheader__title {
+    font-size: 20px;
+  }
+  .popheader__bgimg {
+    width: 100%;
+    max-width: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -20px;
+  }
+  .popheader__wrap {
+    width: 140px;
+    padding: 10px;
+    position: relative;
+    top: 30px;
+    left: 5px;
+    h2 {
+      font-size: 16px;
+      margin-bottom: 5px;
+      line-height: 16px;
+    }
+    h4 {
+      font-size: 12px;
+      margin: 0;
+    }
+    button {
+      padding: 5px 10px;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+  }
+  .popheader__subtitle {
+    font-size: 12px;
+    width: 140px;
+    position: relative;
+    left: -340px;
+    top: -160px;
   }
 }
