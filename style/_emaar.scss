@@ -1,5 +1,7 @@
 .emaar__block {
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   margin-top: 115px;
   gap: 60px;
@@ -14,9 +16,7 @@
   left: 50px;
   top: -40px;
 }
-.emaar__content {
-  width: 657px;
-}
+
 .emaar__title {
   font-weight: 400;
   font-size: 44px;
@@ -87,6 +87,8 @@
   align-items: center;
   gap: 20px;
   margin-top: 52px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .project__box {
   width: 420px;
@@ -200,15 +202,12 @@
   visibility: visible;
   opacity: 1;
 }
-.hotel__bgimg3:hover .hotel__aside {
-  transform: translateY(0);
-  visibility: visible;
-  opacity: 1;
-}
+
 .hotel__bgimg2 {
   background-image: url("../img/hotelbg_img2.png");
   width: 920px;
   height: 570px;
+  // background-repeat: no-repeat;
 }
 .hotel__bgimg3 {
   background-image: url("../img/hotelbg_img3.png");
@@ -226,6 +225,11 @@
   visibility: hidden;
   transition: all ease 0.4s;
   opacity: 0;
+}
+.hotel__bgimg3:hover .hotel__aside {
+  transform: translateY(0);
+  visibility: visible;
+  opacity: 1;
 }
 .hotel__aside h2 {
   font-weight: 400;
@@ -338,4 +342,7 @@
   position: relative;
   left: 55px;
   transform: rotate(180deg);
+}
+.emaar__content {
+  width: 657px;
 }

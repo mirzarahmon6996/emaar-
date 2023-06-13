@@ -1,0 +1,115 @@
+@media (max-width: 1450px) {
+  .footer__block {
+    height: 100%;
+  }
+}
+@media (max-width: 1340px) {
+  //   .container {
+  //     width: 100%;
+  //     max-width: 576px;
+  //   }
+  .header__block {
+    width: 350px;
+    margin-left: -70px;
+    // margin-top: 10vh;
+  }
+  .modal__block {
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    position: flex;
+    top: 0;
+    left: 30vw;
+  }
+  .modal__bgimg {
+    margin: 10px 0 5px 20px;
+    width: 310px;
+    height: 300px;
+  }
+  .modal__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    width: 200px;
+  }
+  .modal__img {
+    margin-left: -30px;
+    width: 70px;
+    height: 270px;
+  }
+  .modal__bgimg2 {
+    width: 350px;
+    margin: 5px;
+    margin: 10px 0 5px 20px;
+    height: 400px;
+    margin-top: -7px;
+    .modal__subtitle {
+      font-size: 16px;
+    }
+    input {
+      width: 200px;
+    }
+    .modal__btn {
+      padding: 10px 0;
+      width: 200px;
+    }
+    .modal__close {
+      padding: 11px 30px;
+      position: absolute;
+      right: -33px;
+      top: 200px;
+    }
+  }
+}
+
+@media (max-width: 1238px) {
+  .emaar__block {
+    justify-content: center;
+    gap: 150px;
+  }
+  .emaar__content {
+    width: 100%;
+  }
+  .emaar__text {
+    width: 100%;
+  }
+  .emaar__title {
+    width: 100%;
+  }
+  .emaar__btn-wrap {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 931px) {
+  .hotel__aside {
+    transform: translateY(0);
+    visibility: visible;
+    opacity: 1;
+  }
+  // .hotel__bgimg {
+  //   width: 100%;
+  // }
+}
+// @media (max-width: 883px) {
+//   .emaar__aside {
+//     width: 420px;
+//   }
+
+// }
+// @media (max-width: 696px) {
+//   .payment__img {
+//     width: 100%;
+//     height: 100%;
+//   }
+// }
+@media (max-width: 537px) {
+  .emaar__title {
+    font-size: 28px;
+  }
+  .emaar__list {
+    font-size: 28px;
+  }
+}
