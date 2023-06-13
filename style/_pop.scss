@@ -76,7 +76,7 @@
   font-weight: 300;
   font-size: 20px;
   line-height: 140%;
-  width: 860px;
+  max-width: 860px;
   margin-top: 60px;
   margin-left: 30vw;
   color: #777777;
@@ -451,17 +451,13 @@
     margin-top: -30vh;
     width: 100%;
     position: relative;
-    top: -150px;
+    top: -80px;
     left: -220px;
     max-width: 300px;
   }
 }
 
 @media (max-width: 420px) {
-  .container {
-    width: 100%;
-    max-width: 420px;
-  }
   .popheader__block {
     padding: 10px 0;
     margin-bottom: 10px;
@@ -471,7 +467,7 @@
   }
   .popheader__bgimg {
     width: 100%;
-    max-width: 400px;
+    max-width: 25rem;
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: -20px;
@@ -502,6 +498,6 @@
     width: 140px;
     position: relative;
     left: -340px;
-    top: -160px;
+    top: -22vh;
   }
 }

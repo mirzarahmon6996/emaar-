@@ -976,7 +976,7 @@ footer .footer__logo {
   font-weight: 300;
   font-size: 20px;
   line-height: 140%;
-  width: 860px;
+  max-width: 860px;
   margin-top: 60px;
   margin-left: 30vw;
   color: #777777;
@@ -1370,16 +1370,12 @@ footer .footer__logo {
     margin-top: -30vh;
     width: 100%;
     position: relative;
-    top: -150px;
+    top: -80px;
     left: -220px;
     max-width: 300px;
   }
 }
 @media (max-width: 420px) {
-  .container {
-    width: 100%;
-    max-width: 420px;
-  }
   .popheader__block {
     padding: 10px 0;
     margin-bottom: 10px;
@@ -1389,7 +1385,7 @@ footer .footer__logo {
   }
   .popheader__bgimg {
     width: 100%;
-    max-width: 400px;
+    max-width: 25rem;
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: -20px;
@@ -1420,7 +1416,7 @@ footer .footer__logo {
     width: 140px;
     position: relative;
     left: -340px;
-    top: -160px;
+    top: -22vh;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -1438,8 +1434,84 @@ footer .footer__logo {
     display: flex;
     flex-wrap: wrap;
     position: absolute;
-    top: 0;
+    top: 100px;
     left: 0;
+  }
+  .modal__add {
+    visibility: visible;
+    transform: scale(1);
+    opacity: 1;
+    position: fixed;
+  }
+  .modal__bgimg {
+    display: none;
+  }
+  .modal__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    width: 200px;
+  }
+  .modal__img {
+    margin-left: -30px;
+    width: 70px;
+    height: 270px;
+  }
+  .modal__bgimg2 {
+    width: 350px;
+    margin: 5px;
+    height: 400px;
+    position: relative;
+    left: -130px;
+    top: 50px;
+  }
+  .modal__bgimg2 .modal__subtitle {
+    font-size: 16px;
+  }
+  .modal__bgimg2 input {
+    width: 200px;
+  }
+  .modal__bgimg2 .modal__btn {
+    padding: 10px 0;
+    width: 200px;
+  }
+  .modal__bgimg2 .modal__close {
+    padding: 11px 30px;
+    position: absolute;
+    right: -33px;
+    top: 200px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .container {
+    width: 100%;
+    max-width: 375px;
+  }
+  .header__block {
+    width: 350px;
+    margin-left: -70px;
+    margin-top: 10vh;
+  }
+}
+@media (max-width: 1450px) {
+  .footer__block {
+    height: 100%;
+  }
+}
+@media (max-width: 1340px) {
+  .header__block {
+    width: 350px;
+    margin-left: -70px;
+  }
+  .modal__block {
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    position: flex;
+    top: 0;
+    left: 30vw;
   }
   .modal__bgimg {
     margin: 10px 0 5px 20px;
@@ -1483,14 +1555,207 @@ footer .footer__logo {
     top: 200px;
   }
 }
-@media only screen and (max-width: 375px) {
-  .container {
-    width: 100%;
-    max-width: 375px;
+@media (max-width: 1238px) {
+  .emaar__block {
+    justify-content: center;
+    gap: 150px;
   }
-  .header__block {
-    width: 350px;
-    margin-left: -70px;
-    margin-top: 10vh;
+  .emaar__content {
+    width: 100%;
+  }
+  .emaar__text {
+    width: 100%;
+  }
+  .emaar__title {
+    width: 100%;
+  }
+  .emaar__btn-wrap {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 931px) {
+  .hotel__aside {
+    transform: translateY(0);
+    visibility: visible;
+    opacity: 1;
+  }
+}
+@media (max-width: 537px) {
+  .emaar__title {
+    font-size: 28px;
+  }
+  .emaar__list {
+    font-size: 28px;
+  }
+}
+@media (max-width: 420px) {
+  .emaar__block {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .emaar__wrap {
+    width: 330px;
+    height: 450px;
+    position: relative;
+  }
+  .emaar__wrap img {
+    width: 330px;
+    height: 450px;
+  }
+  .emaar__wrap .emaar__img {
+    width: 330px;
+    height: 450px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+  }
+  .emaar__content {
+    margin-top: -70px;
+  }
+  .project__title {
+    margin-top: 50px;
+  }
+  .project__block {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .project__block img {
+    width: 330px;
+    height: 450px;
+  }
+  .project__block .emaar__aside {
+    width: 330px;
+  }
+  .map {
+    width: 330px;
+    height: 300px;
+    margin-top: 50px;
+  }
+  .hotel__block {
+    margin-top: 400px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hotel__card {
+    position: relative;
+    left: 20px;
+  }
+  .hotel__bgimg {
+    width: 330px;
+    height: 400px;
+    position: relative;
+    top: -23px;
+    left: -20px;
+  }
+  .hotel__bgimg2 {
+    width: 330px;
+    height: 400px;
+    position: relative;
+    top: -23px;
+    left: -20px;
+  }
+  .hotel__bgimg3 {
+    width: 330px;
+    height: 400px;
+    position: relative;
+    top: -23px;
+    left: -20px;
+  }
+  .hotel__aside {
+    width: 330px;
+    height: 200px;
+    position: relative;
+    left: 0;
+    padding: 10px;
+    top: 200px;
+  }
+  .hotel__aside h2 {
+    font-size: 18px;
+  }
+  .hotel__aside p {
+    font-size: 14px;
+    width: 320px;
+    margin-top: 10px;
+  }
+  .carousel__box {
+    position: relative;
+    left: -70px;
+    width: 250px;
+    height: 300px;
+  }
+  .carousel-inner {
+    width: 250px;
+    height: 300px;
+  }
+  .hotel__wrap {
+    width: 330px;
+    height: 400px;
+    position: relative;
+    top: -20px;
+  }
+  .hotel__subtitle {
+    position: relative;
+    top: -10px;
+    left: 10px;
+    font-size: 20px;
+  }
+  .hotel__wrapper {
+    width: 330px;
+    height: 400px;
+  }
+  .hotel__wrapper2 {
+    width: 330px;
+    height: 400px;
+  }
+  .hotel__block .hotel__wrapper:nth-child(3) {
+    margin-top: 20px;
+  }
+  .hotel__wrapper3 {
+    width: 330px;
+    height: 400px;
+  }
+  .hotel__content {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -20px;
+  }
+  .hotel__img {
+    width: 250px;
+    height: 200px;
+  }
+  .hotel__img2 {
+    width: 250px;
+    height: 200px;
+  }
+  .hotel__img3 {
+    width: 250px;
+    height: 200px;
+  }
+  .hotel__aside {
+    display: none;
+  }
+  .hotel__inner {
+    width: 250px;
+    position: relative;
+    top: 0;
+    height: 200px;
+  }
+  .carousel__vector {
+    position: relative;
+    top: 30px;
+    left: -50px;
+    width: 30px;
+    height: 8px;
+  }
+  .carousel__vector_right {
+    position: relative;
+    top: 30px;
+    left: 40px;
+    width: 30px;
+    height: 8px;
   }
 }/*# sourceMappingURL=main.css.map */
