@@ -323,7 +323,7 @@
     height: 200px;
   }
   .hotel__aside {
-    p{
+    p {
       font-size: 14px;
     }
   }
@@ -346,5 +346,49 @@
     left: 40px;
     width: 30px;
     height: 8px;
+  }
+  .payment__block {
+    margin-top: -20px;
+  }
+  .payment__img {
+    width: 330px;
+    height: 300px;
+    object-fit: contain;
+  }
+  .payment__wrapper {
+    width: 330px;
+    position: relative;
+  }
+  .payment__wrap {
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    width: 330px;
+    height: 300px;
+  }
+  .payment__title {
+    font-size: 18px;
+  }
+  .payment__text {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .payment__img2 {
+    width: 330px;
+    height: 300px;
+    object-fit: contain;
+  }
+  .payment__wrapper-second {
+    width: 330px;
+    position: relative;
+    left: -440px;
+    top: -250px;
+  }
+  .payment__wrap-second {
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    width: 330px;
+    height: 300px;
   }
 }

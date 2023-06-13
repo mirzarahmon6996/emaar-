@@ -685,18 +685,6 @@ a {
   position: relative;
 }
 
-.payment__wrapper:hover .payment__wrap {
-  visibility: visible;
-  transform: scale(1);
-  opacity: 1;
-}
-
-.payment__wrapper-second:hover .payment__wrap-second {
-  visibility: visible;
-  transform: scale(1);
-  opacity: 1;
-}
-
 .payment__wrap {
   background: rgba(255, 255, 255, 0.85);
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.07);
@@ -708,10 +696,6 @@ a {
   width: 610px;
   padding: 40px;
   left: 590px;
-  visibility: hidden;
-  transform: scale(0);
-  transition: all ease 0.5s;
-  opacity: 0;
 }
 
 .payment__wrap-second {
@@ -724,10 +708,6 @@ a {
   left: -356px;
   width: 610px;
   padding: 40px;
-  visibility: hidden;
-  transform: scale(0);
-  transition: all ease 0.5s;
-  opacity: 0;
 }
 
 .payment__title {
@@ -1757,5 +1737,51 @@ footer .footer__logo {
     left: 40px;
     width: 30px;
     height: 8px;
+  }
+  .payment__block {
+    margin-top: -20px;
+  }
+  .payment__img {
+    width: 330px;
+    height: 300px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .payment__wrapper {
+    width: 330px;
+    position: relative;
+  }
+  .payment__wrap {
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    width: 330px;
+    height: 300px;
+  }
+  .payment__title {
+    font-size: 18px;
+  }
+  .payment__text {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .payment__img2 {
+    width: 330px;
+    height: 300px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .payment__wrapper-second {
+    width: 330px;
+    position: relative;
+    left: -440px;
+    top: -250px;
+  }
+  .payment__wrap-second {
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    width: 330px;
+    height: 300px;
   }
 }/*# sourceMappingURL=main.css.map */
