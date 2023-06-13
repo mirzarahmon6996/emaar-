@@ -1817,12 +1817,12 @@ footer .footer__logo {
     width: 200px;
     height: 300px;
     margin-top: 243px;
-    margin-left: -50px;
+    margin-left: 0px;
   }
   footer .footer__wrapper {
     display: flex;
     flex-direction: column;
-    margin-left: 150px;
+    margin-left: 210px;
     justify-content: center;
     align-items: center;
   }
