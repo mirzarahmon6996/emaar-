@@ -1365,7 +1365,7 @@ footer .footer__logo {
   }
   .popheader__bgimg {
     width: 100%;
-    max-width: 25rem;
+    max-width: 350px;
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: -20px;
