@@ -1393,10 +1393,135 @@ footer .footer__logo {
   }
   .popheader__subtitle {
     font-size: 12px;
-    width: 140px;
+    width: 170px;
     position: relative;
     left: -340px;
-    top: -22vh;
+    top: -33vh;
+  }
+  .popmain__img {
+    transform: rotate(90deg);
+    position: relative;
+    left: -70px;
+    top: -170px;
+    width: 450px;
+    height: 50px;
+  }
+  .burj__block img {
+    width: 100px;
+    height: 70px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .burj__title {
+    font-size: 12px;
+    margin: 0;
+  }
+  .burj__subtitle {
+    font-size: 20px;
+    margin: 0;
+  }
+  .burj__wrap {
+    position: relative;
+    top: -185px;
+    left: 10px;
+  }
+  .burj__wrap-second {
+    position: relative;
+    top: -260px;
+    left: 40px;
+  }
+  .burj__wrap-third {
+    position: relative;
+    top: -105px;
+    left: -100px;
+  }
+  .burj__wrap-four {
+    position: relative;
+    top: -215px;
+    left: 10px;
+  }
+  .burj__wrap-four img {
+    width: 70px;
+    height: 50px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .burj__wrap-five {
+    position: relative;
+    top: -150px;
+    left: -80px;
+  }
+  .burj__wrap-five img {
+    width: 100px;
+    height: 70px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .burj__btn {
+    position: relative;
+    top: 0;
+    left: -15px;
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  .galery__block {
+    margin-top: 5px;
+  }
+  .galery__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .galery__wrapper img {
+    width: 330px;
+    margin-top: -20px;
+    margin-left: 20px;
+  }
+  .galery__wrap {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .galery__img {
+    position: relative;
+    top: 20px;
+  }
+  .carosel__galery {
+    display: none;
+  }
+  .plan__block {
+    margin: 0;
+    margin-top: 40px;
+  }
+  .plan__block .plan__title {
+    font-size: 30px;
+    margin-left: -100px;
+  }
+  .plan__block .plan__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    width: 330px;
+    gap: 20px;
+  }
+  .offers__block {
+    margin: 30px 0;
+    padding: 20px;
+    width: 330px;
+  }
+  .offers__block .offers__title {
+    font-size: 24px;
+    text-align: center;
+  }
+  .offers__block .offers__subtitle {
+    font-size: 12px;
+  }
+  .offers__block .offers__form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .offers__block .offers__form input {
+    width: 330px;
+    margin-top: 20px;
   }
 }
 @media only screen and (max-width: 576px) {
